@@ -53,7 +53,7 @@ export const reviews = {
       author: 'reviews.corporate_slides.5.author',
       position: 'reviews.corporate_slides.5.position',
       content: 'reviews.corporate_slides.5.content',
-    }
+    },
   ],
 };
 
@@ -123,7 +123,7 @@ export const priceCards = {
             desc: 'priceCardsCorporate.list.1.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#A5E38F',
       message: 'priceCardsCorporate.list.1.message',
@@ -158,7 +158,7 @@ export const priceCards = {
             desc: 'priceCardsCorporate.list.2.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#F0F0F0',
 
@@ -194,7 +194,7 @@ export const priceCards = {
             desc: 'priceCardsCorporate.list.3.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#59ACFF',
       message: 'priceCardsCorporate.list.3.message',

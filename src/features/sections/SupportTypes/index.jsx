@@ -2,7 +2,7 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 
-export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00', landing=false }) => {
+export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00', landing=false, image=true }) => {
   const {t}=useTranslation();
   
   return (
@@ -31,7 +31,7 @@ export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00', landing=f
             </div>
           ))}
         </div>
-        {data?.image && (
+        {data?.image && image &&(
           <div
             className={styles.support_types__image}
             style={{ backgroundImage: `url(${data.image})` }}

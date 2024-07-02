@@ -57,7 +57,8 @@
       color: $dark-grey;
       text-align: justify;
       @include media(phone) {
-        font-weight: normal;
+      text-align: left;
+      font-weight: normal;
       }
     }
   }

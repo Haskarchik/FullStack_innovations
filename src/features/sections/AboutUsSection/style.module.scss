@@ -106,7 +106,9 @@
     right: 0px;
     bottom: -7px;
     @include media(phone) {
-      bottom: 17px;
+      bottom: 0px;
+      position: relative;
+      display: flex;
     }
   }
   .navbar__btn {

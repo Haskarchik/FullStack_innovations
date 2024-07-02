@@ -131,7 +131,47 @@ export const offers = {
     },
   ],
 };
-
+export const offers_mob = {
+  title: 'ecomerceOffers_mob.title',
+  list: [
+    {
+      title: 'ecomerceOffers_mob.list.1.title',
+      desc: 'ecomerceOffers_mob.list.1.desc',
+      offerName: 'Design',
+      link: '/services/design',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.2.title',
+      desc: 'ecomerceOffers_mob.list.2.desc',
+      offerName: 'Trends',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.3.title',
+      desc: 'ecomerceOffers_mob.list.3.desc',
+      offerName: 'Usability',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.4.title',
+      desc: 'ecomerceOffers_mob.list.4.desc',
+      offerName: 'CMS',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.5.title',
+      desc: 'ecomerceOffers_mob.list.5.desc',
+      offerName: 'SEO',
+      link: '/services/seo',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.6.title',
+      desc: 'ecomerceOffers_mob.list.6.desc',
+      offerName: 'Mobile',
+      link: '',
+    },
+  ],
+};
 export const priceCards = {
   title: 'priceCardsEcomerce.title',
   desc: 'priceCardsEcomerce.desc',
@@ -156,7 +196,7 @@ export const priceCards = {
             desc: 'priceCardsEcomerce.list.1.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#9796ED',
       message: 'priceCardsEcomerce.list.1.message',
@@ -191,7 +231,7 @@ export const priceCards = {
             desc: 'priceCardsEcomerce.list.2.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#F0F0F0',
       message: 'priceCardsEcomerce.list.2.message',
@@ -226,7 +266,7 @@ export const priceCards = {
             desc: 'priceCardsEcomerce.list.3.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#FFA3A3',
       message: 'priceCardsEcomerce.list.3.message',

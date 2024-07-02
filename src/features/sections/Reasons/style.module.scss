@@ -210,6 +210,9 @@
       line-height: 150%;
       max-width: 340px;
       position: relative;
+      @include media(phone) {
+        text-align: left;
+      }
       &:hover {
         &::after {
           opacity: 1;

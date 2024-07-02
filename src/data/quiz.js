@@ -116,7 +116,7 @@ export const priceCards = {
             desc: 'priceCardsQuiz.list.1.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#FFA3A3',
 
@@ -152,7 +152,7 @@ export const priceCards = {
             desc: 'priceCardsQuiz.list.2.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#F0F0F0',
 
@@ -188,7 +188,7 @@ export const priceCards = {
             desc: 'priceCardsQuiz.list.3.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#FFEDAD',
       message: 'priceCardsQuiz.list.3.message',

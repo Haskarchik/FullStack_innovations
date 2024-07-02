@@ -67,6 +67,14 @@
       max-width: 500px;
       margin: 0 auto;
       text-align: justify;
+      @include media(phone){
+      text-align: left;
+      }
+      @media (max-width:375px) {
+        max-width: 300px;
+        margin-left: 0px;
+      
+      }
     }
     &__plan {
       font-size: 14px;

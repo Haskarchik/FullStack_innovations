@@ -13,7 +13,7 @@ export default function Frontend() {
     <>
       <HeroBannerLight data={heroBanner} />
       <WeCreate />
-      <BusinessShowCase />
+      <BusinessShowCase left={true} />
       <Workflow data={workflow}/>
       <InfoCards data={infoCards} />
       <OurWorks />

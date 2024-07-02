@@ -5,9 +5,13 @@
   width: 100%;
   height: 321px;
   position: relative;
+  @include media(phone) {
+  height: 440px;
+}
   &__slide {
     min-height: 321px;
     max-width: 814px;
+    position: relative;
     width: 100%;
     margin: 0 auto;
     background-color: $pale-blue;
@@ -16,8 +20,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include media(phone) {
+      padding: 50px 20px 20px;
+      height: 440px;
+    }
     &__title {
-      position: relative;
+  
       text-align: center;
       font-family: Manrope;
       font-size: 24px;
@@ -29,7 +37,7 @@
       &::before {
         content: '“';
         width: 77px;
-        height: 137px;
+        height: 80px;
         color: $bright-blue;
         text-align: center;
         font-family: Manrope;
@@ -37,9 +45,15 @@
         font-weight: 600;
         line-height: 125%;
         position: absolute;
-        bottom: 0;
+        bottom:0;
         left: 50%;
         transform: translateX(-50%);
+        @include media(phone) {
+        line-height: 85%;
+        bottom: 45px;
+        top: 0;
+
+        }
       }
     }
     &__content {
@@ -48,10 +62,10 @@
       text-align: center;
       font-family: Manrope;
       font-size: 16px;
-     font-style: italic;
+      font-style: italic;
       line-height: 140%;
       word-wrap: break-word;
-     /*  word-break: break-all; */
+      /*  word-break: break-all; */
     }
     &__author {
       margin-bottom: 4px;
@@ -68,6 +82,8 @@
       font-family: Manrope;
       font-size: 14px;
       line-height: 120%;
+      @include media(phone) {
+      }
     }
   }
   &__btn_prev,
@@ -81,12 +97,11 @@
     height: 40px;
     width: 40px;
     &:hover {
-        background-color: #0d345c;
-     
+      background-color: #0d345c;
     }
     @include media(phone) {
-      top: unset;
-      bottom: -64px;
+      top:  455px;
+
       transform: none;
     }
   }

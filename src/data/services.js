@@ -41,6 +41,7 @@ export const offers = {
 
 export const banner = {
   title: 'banner.title',
+  title_mob: 'banner.title_mob',
   desc: 'banner.desc',
   image: '/img/banner-1.png',
 };

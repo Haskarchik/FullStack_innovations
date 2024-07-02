@@ -34,7 +34,7 @@
     font-style: italic;
     @include media(phone) {
     font-size: 16px;
-    text-align: justify;
+ 
     }
   }
   &__images {
@@ -54,6 +54,11 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+     @include media(phone){
+      &:nth-last-child(1){
+        display: none;
+      }
+     }
     img {
       object-fit: cover;
     }

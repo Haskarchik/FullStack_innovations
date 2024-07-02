@@ -29,6 +29,9 @@
     color: $dark-grey;
     max-width: 800px;
     text-align: center;
+    @include media(phone) {
+      display: none;
+    }
   }
   &__list {
     position: relative;
@@ -46,16 +49,18 @@
     @include media(phone) {
       flex-direction: column;
       overflow-x: hidden;
-    display: block;
-    padding: 0px ;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
 
+      padding: 0px;
     }
   }
   .paginationBtn {
     @include media(phone) {
       display: none;
     }
-  
+
     left: -30px;
     position: absolute;
     align-self: flex-end;
@@ -111,8 +116,7 @@
     flex-shrink: 0;
     /* margin-left: -10px; */
     @include media(phone) {
-    width: 85%;
-
+      width: 85%;
     }
     &__order {
       position: absolute;
@@ -133,6 +137,9 @@
       line-height: 125%;
 
       text-align: left;
+      @include media(phone) {
+        text-align: center;
+      }
     }
     &__desc {
       border: 1px solid #18496a;

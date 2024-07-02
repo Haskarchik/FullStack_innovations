@@ -125,6 +125,9 @@
       line-height: 150%;
       color: $dark-grey;
       text-align: justify;
+    @include media(phone) {
+      text-align: justify;
+    }
     }
     &__note {
       margin-top: auto;

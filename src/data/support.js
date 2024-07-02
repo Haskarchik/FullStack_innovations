@@ -23,6 +23,26 @@ export const supportTypes = {
     },
   ],
 };
+export const supportTypes_mob = {
+  title: 'supportTypes_mob.title',
+  list: [
+    {
+      title: 'supportTypes_mob.list.1.title',
+      desc: 'supportTypes_mob.list.1.desc',
+      image: '/img/support-1.png',
+    },
+    {
+      title: 'supportTypes_mob.list.2.title',
+      desc: 'supportTypes_mob.list.2.desc',
+      image: '/img/support-2.png',
+    },
+    {
+      title: 'supportTypes_mob.list.3.title',
+      desc: 'supportTypes_mob.list.3.desc',
+      image: '/img/support-3.png',
+    },
+  ],
+};
 
 export const supportPackages = {
   title: 'supportPackages.title',
@@ -57,16 +77,21 @@ export const supportPackages = {
 export const securityList = {
   title: 'securityList.title',
   desc: 'securityList.desc',
+
   image: '/img/security.png',
   list: [
     {
       title: 'securityList.list.1.title',
+      title_mob: 'securityList.list.1.title_mob',
       desc: 'securityList.list.1.desc',
+      desc_mob: 'securityList.list.1.desc_mob',
       icon: '/img/icons/cash.png',
     },
     {
       title: 'securityList.list.2.title',
+      title_mob: 'securityList.list.2.title_mob',
       desc: 'securityList.list.2.desc',
+      desc_mob: 'securityList.list.2.desc_mob',
       icon: '/img/icons/time.png',
     },
   ],

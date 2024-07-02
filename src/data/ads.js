@@ -10,6 +10,13 @@ export const adsExplanation = {
   imageTwo: '/img/explanation-2.jfif',
   alt: '',
 };
+export const adsExplanation_mob = {
+  title: 'adsExplanation_mob.title',
+  desc: 'adsExplanation_mob.desc',
+  imageOne: '/img/explanation-1.jpg',
+  imageTwo: '',
+  alt: '',
+};
 
 export const ppc = {
   title: 'ppcAds.title',
@@ -71,7 +78,6 @@ export const adsDetails = {
       desc: 'factorsAds.list.5.desc',
       note: '',
     },
-   
   ],
 };
 export const checks = {

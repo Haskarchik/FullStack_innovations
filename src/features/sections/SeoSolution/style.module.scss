@@ -193,7 +193,7 @@
     display: flex;
     gap: 40px;
     @include media(phone) {
-      flex-direction: column;
+    display: none;
     }
   }
 

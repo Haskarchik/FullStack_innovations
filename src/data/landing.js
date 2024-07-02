@@ -74,9 +74,9 @@ export const priceCards = {
             desc: 'priceCardsLending.list.1.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
-          color: '#99DFFE',
+      color: '#99DFFE',
 
       message: 'priceCardsLending.list.1.message',
       sizeType: 'priceCardsLending.list.1.sizeType',
@@ -110,7 +110,7 @@ export const priceCards = {
             desc: 'priceCardsLending.list.2.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#F0F0F0',
 
@@ -146,7 +146,7 @@ export const priceCards = {
             desc: 'priceCardsLending.list.3.modal.grid.3.desc',
           },
         ],
-        images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
       },
       color: '#9796ED',
 

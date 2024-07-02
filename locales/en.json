@@ -409,23 +409,23 @@
         "desc": "Minimize your financial expenses by opting out of hiring developers."
       },
       "2": {
-        "title": "If there's no project, you don't pay.",
+        "title": "If there's no project, you don't pay",
         "desc": "If there is no project, there is no salary for the developer"
       },
       "3": {
-        "title": "Offering new ideas for services.",
+        "title": "Offering new ideas for services",
         "desc": "IT development, high demand. Choose us for full solutions."
       },
       "4": {
-        "title": "Gain our expertise by working together.",
+        "title": "Gain our expertise by working together",
         "desc": "Our experts amassed extensive tech experience in three years."
       },
       "5": {
-        "title": "White labeling and NDA protection.",
+        "title": "White labeling and NDA protection",
         "desc": "Project Security: Absolute White Labeling, Confidentiality NDA."
       },
       "6": {
-        "title": "Get our full delivery potential.",
+        "title": "Get our full delivery potential",
         "desc": "We focus on development through the ability to hire 25 engineers."
       },
       "7": {
@@ -569,6 +569,7 @@
   },
   "banner": {
     "title": "Do you believe in hiring professionals?",
+    "title_mob": "Believe in hiring professionals?",
     "desc": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js, and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
   },
   "technologies": {
@@ -629,6 +630,35 @@
       "6": {
         "title": "Mobile version",
         "desc": "Remember that half of the audience visits websites on smartphones. We create all projects with an emphasis on mobility for optimal comfort of use."
+      }
+    }
+  },
+  "ecomerceOffers_mob": {
+    "title": "You will get",
+    "list": {
+      "1": {
+        "title": "Modern design",
+        "desc": "The eCommerce web-project epitomizes a distinctive, contemporary style that effectively showcases the company's professionalism."
+      },
+      "2": {
+        "title": "Consideration of trends",
+        "desc": "The eCommerce industry is ever-changing. In our projects, we actively incorporate the trend of interactive websites to stay ahead."
+      },
+      "3": {
+        "title": "Correct usability",
+        "desc": "The success of company eCommerce project depends on owner satisfaction and creating a modern, innovative platform for visitors."
+      },
+      "4": {
+        "title": "Modern management system",
+        "desc": "Any employee, including you, can easily and efficiently manage the project, ensuring high-quality resource utilization and results."
+      },
+      "5": {
+        "title": "SEO optimization",
+        "desc": "In a competitive world, success hinges on SEO optimization. We tailor unique strategies for each client's website's specific needs."
+      },
+      "6": {
+        "title": "Mobile version",
+        "desc": "Half the audience utilizes smartphones. We prioritize mobile-friendly projects for the best user experience and ease of use."
       }
     }
   },
@@ -725,11 +755,15 @@
     "list": {
       "1": {
         "title": "Protection against overspending",
-        "desc": "Before starting work, we agree on a fixed amount to avoid misunderstandings and unforeseen costs. With us, you know exactly how much your project will cost and you can calmly work on its implementation. However, if you wish to add new functionality, we are willing to negotiate additional costs for these operational changes."
+        "title_mob": "Prevention of overspending",
+        "desc": "Before starting work, we agree on a fixed amount to avoid misunderstandings and unforeseen costs. With us, you know exactly how much your project will cost and you can calmly work on its implementation. However, if you wish to add new functionality, we are willing to negotiate additional costs for these operational changes.",
+        "desc_mob": "We agree on a fixed price upfront to prevent unexpected costs. If additional features are desired, we can negotiate and price them separately accordingly."
       },
       "2": {
         "title": "Timeout protection",
-        "desc": "We fix a clear schedule for your project, conduct a thorough analysis and planning of requirements to avoid possible delays. Thanks to our approach, you will always have a clear idea of the completion date, which allows you to manage expectations and ensure the successful implementation of the project within the agreed time frame."
+        "title_mob": "Timeout protection",
+        "desc": "We fix a clear schedule for your project, conduct a thorough analysis and planning of requirements to avoid possible delays. Thanks to our approach, you will always have a clear idea of the completion date, which allows you to manage expectations and ensure the successful implementation of the project within the agreed time frame.",
+        "desc_mob": "We maintain a precise schedule, conduct thorough analysis, and ensure timely project delivery for successful outcomes and client satisfaction guaranteed."
       }
     }
   },
@@ -805,6 +839,23 @@
       "3": {
         "title": "Payment per hour of work",
         "desc": "Projects aimed at the performance of well-defined tasks and regular updating of the system, content, and semantic blocks are ideal for creating landing pages and simple design sites, ensuring stable, efficient, user-friendly, and also visually appealing functionality throughout the duration."
+      }
+    }
+  },
+  "supportTypes_mob": {
+    "title": "Types of technical support",
+    "list": {
+      "1": {
+        "title": "Monthly support",
+        "desc": "If a client project has limited support, we'll assist during the initial months to promptly identify and resolve issues. Our experts are ready to help throughout this process."
+      },
+      "2": {
+        "title": "Annual support",
+        "desc": "We analyze tasks to ensure stable daily support and year-round reliability for high-traffic websites, preventing disruptions through continuous monitoring."
+      },
+      "3": {
+        "title": "Payment per hour of work",
+        "desc": "Clear-tasked projects with regular updates ensure stable, efficient, user-friendly functionality for landing pages and simple design sites, maintaining visual appeal."
       }
     }
   },
@@ -1916,6 +1967,10 @@
   "adsExplanation": {
     "title": "What is contextual advertising?",
     "desc": "Contextual advertising is a quick and effective way to attract the target audience to your site. Thanks to accurate targeting, it accelerates the arrival of new visitors and increases conversion."
+  },
+  "adsExplanation_mob": {
+    "title": "What is contextual advertising?",
+    "desc": "Contextual advertising is a quick and effective way to attract the target audience to your site."
   },
   "heroBannerAds": {
     "title": "Contextual advertising in Google",
